@@ -14,25 +14,28 @@
     android:layout_weight="1"
     android:orientation="vertical">
     <TextView
+        android:id="@+id/iout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
         android:layout_gravity="center"
         android:gravity="center"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_margin="20dp"/>
     <TextView
+        android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
         android:layout_gravity="center"
         android:gravity="center"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_margin="20dp"/>
 </LinearLayout>
     <LinearLayout
         style="@style/btnRow">
         <Button
+            android:id="@+id/btnAC"
             style="@style/btnOperation"
             android:text="AC">
         </Button>
@@ -49,6 +52,7 @@
         </Button>
 
         <Button
+            android:id="@+id/btnDivide"
             style="@style/btnOperation"
             android:text="/">
         </Button>
@@ -56,18 +60,22 @@
     <LinearLayout
         style="@style/btnRow">
         <Button
+            android:id="@+id/btnSeven"
             style="@style/btnNumber"
             android:text="7">
         </Button>
         <Button
+            android:id="@+id/btnEight"
             style="@style/btnNumber"
             android:text="8">
         </Button>
         <Button
+            android:id="@+id/btnNine"
             style="@style/btnNumber"
             android:text="9">
         </Button>
         <Button
+            android:id="@+id/btnMultiply"
             style="@style/btnOperation"
             android:text="X">
         </Button>
@@ -75,18 +83,22 @@
     <LinearLayout
         style="@style/btnRow">
         <Button
+            android:id="@+id/btnFour"
             style="@style/btnNumber"
             android:text="4">
         </Button>
         <Button
+            android:id="@+id/btnFive"
             style="@style/btnNumber"
             android:text="5">
         </Button>
         <Button
+            android:id="@+id/btnSix"
             style="@style/btnNumber"
             android:text="6">
         </Button>
         <Button
+            android:id="@+id/btnMinus"
             style="@style/btnOperation"
             android:text="-">
         </Button>
@@ -94,18 +106,22 @@
     <LinearLayout
         style="@style/btnRow">
         <Button
+            android:id="@+id/btnOne"
             style="@style/btnNumber"
             android:text="1">
         </Button>
         <Button
+            android:id="@+id/btnTwo"
             style="@style/btnNumber"
             android:text="2">
         </Button>
         <Button
+            android:id="@+id/btnThree"
             style="@style/btnNumber"
             android:text="3">
         </Button>
         <Button
+            android:id="@+id/btnPlus"
             style="@style/btnOperation"
             android:text="+">
         </Button>
@@ -113,14 +129,17 @@
     <LinearLayout
         style="@style/btnRow">
         <Button
+            android:id="@+id/btnDot"
             style="@style/btnNumber"
             android:text=".">
         </Button>
         <Button
+            android:id="@+id/btnZero"
             style="@style/btnNumber"
             android:text="0">
         </Button>
         <Button
+            android:id="@+id/btnEqual"
             style="@style/btnNumber"
             android:text="="
             android:background="@color/orange">
